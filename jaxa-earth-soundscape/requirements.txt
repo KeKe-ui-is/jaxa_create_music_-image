@@ -1,0 +1,23 @@
+# ===== UI =====
+streamlit>=1.32
+folium>=0.15
+streamlit-folium>=0.20
+
+# ===== Data / Utils =====
+numpy>=1.26
+pillow>=10.0
+scipy>=1.11
+requests>=2.31
+
+# ===== JAXA Earth SDK =====
+jaxa-earth
+
+# ===== Local AI =====
+transformers>=4.40
+accelerate>=0.30
+safetensors>=0.4
+diffusers>=0.30
+
+# ===== IMPORTANT =====
+# torch はCPU版/GPU(CUDA)版でインストール手順が違うため、
+# requirements.txtには含めません（READMEの手順に従って入れてください）。
