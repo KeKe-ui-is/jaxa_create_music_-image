@@ -111,7 +111,7 @@ PowerShellを閉じれば元に戻ります。
 ■ GPUなし（CPU動作）
     pip install torch torchvision torchaudio
 
-■ NVIDIA GPUあり（CUDA 12.1例）
+■ NVIDIA GPUあり（CUDA 12.1例）注意使用するGPUによって変化する場合があります。
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 確認：
